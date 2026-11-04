@@ -27,4 +27,5 @@ Integrantes
 \- Sergio David Ibáñez Morales
 
 \- Yuliana Lizarazo Mesa
+\- Edison Julian Rivera 
 
