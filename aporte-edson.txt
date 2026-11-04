@@ -1,0 +1,37 @@
+Taller GitHub ADSO - Aporte de Edson Rivera
+Fecha: 2026-11-04
+Repositorio: https://github.com/edsonyulianr-rgb/Taller-GitHub-ADSO.git
+
+PASO A PASO PARA AGREGAR ESTE ARCHIVO AL REPOSITORIO (Windows CMD)
+
+Este archivo fue creado en: C:\Users\edson\Taller-GitHub-ADSO\aporte-edson.txt
+
+1. Verificar que ya estas en la carpeta del proyecto:
+   cd C:\Users\edson\Taller-GitHub-ADSO
+
+2. Verificar el estado del repositorio:
+   git status
+   Debe aparecer: aporte-edson.txt como Untracked files
+
+3. Agregar el archivo al area de preparacion:
+   git add aporte-edson.txt
+
+4. Verificar que quedo preparado:
+   git status
+   Debe aparecer: Changes to be committed
+
+5. Crear el commit:
+   git commit -m "Agregar aporte de Edson"
+
+6. Subir el archivo a GitHub en la rama main:
+   git push -u origin main
+
+7. Verificar en GitHub:
+   https://github.com/edsonyulianr-rgb/Taller-GitHub-ADSO
+   El archivo aporte-edson.txt debe aparecer en la lista de archivos.
+
+NOTAS IMPORTANTES (errores corregidos del taller):
+- git add .  (con espacio, no git add.)
+- git remote add origin https://github.com/edsonyulianr-rgb/Taller-GitHub-ADSO.git
+  El nombre del remoto es origin, no arigin.
+- git branch -M main  (para renombrar master a main)
